@@ -1,0 +1,78 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.section-title {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.pet-photos {
+    width: 87px;
+    height: 209px;
+    display: flex;
+    gap: 18px;
+}
+
+.div-photos {
+    width: 87px;
+    height: 92px;
+    display: flex;
+    gap: 18px;
+}
+
+.div-album-photos {
+    width: 192px;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.section-login-form {
+    width: 368px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 44px 24px;
+    gap: 26px;
+    background-color: var(--gray900);
+    border: 1px solid var(--gray600);
+    border-radius: 4px;
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.div-email, .div-password {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.div-new-account {
+    width: 321px;
+    height: 83px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.load {
+    animation: spinner 1s infinite linear;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

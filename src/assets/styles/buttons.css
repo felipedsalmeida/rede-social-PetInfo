@@ -1,0 +1,160 @@
+.button-form {
+    width: 321px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    background-color: var(--brand100);
+    border: 1px solid var(--brand100);
+    border-radius: 4px;
+    font-size: var(--font-text-1);
+    font-weight: var(--font-weight-2);
+    color: var(--gray900);
+    cursor: pointer;
+}
+.button-new-account, .button-user-login {
+    width: 320px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    background-color: var(--gray900);
+    border: 1px solid var(--gray600);
+    border-radius: 4px;
+    font-size: var(--font-text-1);
+    font-weight: var(--font-weight-2);
+    color: var(--gray100);
+    cursor: pointer;
+}
+.div-signup-title > button {
+    width: 133px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 8px;
+    background-color: var(--gray900);
+    border: 1px solid var(--gray600);
+    border-radius: 4px;
+    font-size: var(--font-text-2);
+    font-weight: var(--font-weight-2);
+    color: var(--gray100);
+    cursor: pointer;
+}
+
+.button-create-post {
+    width: 152px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    background-color: var(--brand100);
+    border: 1px solid var(--brand100);
+    border: 4px;
+    font-size: var(--font-text-1);
+    font-weight: var(--font-weight-2);
+    color: var(--gray9001);
+    cursor: pointer;
+}
+
+.div-buttons-post > button {
+    width: 60px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 8px;
+    border: 1px solid var(--gray700);
+    border-radius: 4px;
+    background-color: var(--gray700);
+    font-size: var(--font-text-2);
+    font-weight: var(--font-weight-2);
+    color: var(--gray400);
+    cursor: pointer;
+}
+.div-buttons-post > button:hover {
+    border: 1px solid var(--gray600);
+    background-color: var(--gray900);
+    color: var(--gray100);
+}
+.button-close-modal, .modal-delete-title > button, .modal-post-title > button{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 14px;
+    gap: 10px;
+    background-color: var(--gray600);
+    border: 1px solid var(--gray600);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button-cancel-modal-form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 7px 20px;
+    gap: 10px;
+    background-color: var(--gray600);
+    border-radius: 4px;
+    border: 1px solid var(--gray600);
+    font-size: var(--font-text-1);
+    font-weight: var(--font-weight-2);
+    color: var(--gray400);
+    cursor: pointer;
+}
+.button-publish-modal-form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 7px 20px;
+    gap: 10px;
+    background-color: var(--brand100);
+    border-radius: 4px;
+    border: 1px solid var(--brand100);
+    font-size: var(--font-text-1);
+    font-weight: var(--font-weight-2);
+    color: var(--gray900);
+    cursor: pointer;
+
+}
+
+.btn-cancel-delete {
+    width: 97px;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    background-color: var(--gray600);
+    border: 1px solid var(--gray600);
+    border-radius: 4px;
+    font-size: var(--font-text-1);
+    font-weight: var(--font-weight-2);
+    color: var(--gray400);
+    cursor: pointer;
+
+
+}
+.btn-delete {
+    width: 189px;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    background-color: var(--alert100);
+    border: 1px solid var(--alert100);
+    border-radius: 4px;
+    font-size: var(--font-text-1);
+    font-weight: var(--font-weight-2);
+    color: var(--gray900);
+    cursor: pointer;
+}

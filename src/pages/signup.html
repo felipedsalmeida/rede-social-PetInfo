@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../assets/styles/reset.css">
+    <link rel="stylesheet" href="../assets/styles/signup.css">
+    <link rel="stylesheet" href="../assets/styles/texts.css">
+    <link rel="stylesheet" href="../assets/styles/inputs.css">
+    <link rel="stylesheet" href="../assets/styles/buttons.css">
+    <link rel="stylesheet" href="../assets/styles/toast.css">
+
+    <title>Petinfo - Cadastro</title>
+</head>
+<body>
+    <main class="main-container">
+        <section class="section-signup-form">
+            <div class="div-signup-title">
+                <h2>Cadastro</h2>
+                <button id="backToLogin" class="backToLogin">Voltar para o login</button>
+            </div>
+            <form id="signup-form" class="signup-form">
+                <div class="div-user">
+                    <label name="username">Usuário</label>
+                    <input type="text" name="username" placeholder="Digite seu usuário aqui" required="true">
+                </div>
+                <div class="div-email">
+                    <label name="email">Email</label>
+                    <input type="email" name="email" placeholder="Digite seu email aqui" required="true">
+                </div>
+                <div class="div-password">
+                    <label name="password">Senha</label>
+                    <input type="password" name="password" placeholder="Digite sua senha aqui" required="true">
+                </div>
+                <div class="div-photo">
+                    <label name="avatar">Link da foto do perfil</label>
+                    <input type="text" name="avatar" placeholder="Insira o link aqui" required="true">
+                </div>
+                
+            </form>
+            <button  class="button-user-login">Voltar para o login</button>
+        </section>
+        <section class="section-title">
+            <h1>Petinfo</h1>
+            <p class="slogan-signup">Ooooooba!</p>
+            <p class="slogan-description">Agora vamos poder contribuir para o bem estar do seu pet por meio do conhecimento</p>
+            <figure class="pet-photos">
+                <div class="div-photo">
+                    <img src="../assets/img/cat-3.png" alt="">
+                </div>
+                <div class="div-album-photos">
+                    <div class="div-photos">
+                        <img src="../assets/img/cat-4.png" alt="">
+                        <img src="../assets/img/dog-3.png" alt="">
+                    </div>
+                    <img src="../assets/img/cat-5.png" alt="">
+                </div>                
+            </figure>
+            
+           
+        </section>
+    </main>
+    <script type="module" src="../assets/scripts/requests.js"></script>
+    <script type="module" src="../assets/scripts/signup.js"></script>
+    
+</body>
+</html>

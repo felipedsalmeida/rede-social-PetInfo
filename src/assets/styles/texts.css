@@ -1,0 +1,161 @@
+ h1 {
+    font-size: var(--font-title-1);
+    font-weight: var(--font-weight-1);
+    color: var(--gray100);
+
+}
+
+.slogan {
+    width: 391px;
+    font-size: var(--font-title-1);
+    font-weight: var(--font-weight-1);
+    color: var(--gray100);
+}
+
+.slogan-span {
+    color: var(--brand100);
+}
+
+.slogan-description {
+    width: 320px;
+    font-weight: var(--font-weight-3);
+    font-size: var(--font-text-1);
+    color: var(--gray300);
+}
+
+.section-login-form > h2 {
+    font-size: var(--font-title-2);
+    font-weight: var(--font-weight-2);
+    color: var(--gray100);
+}
+
+.div-email > label, .div-password > label {
+    font-size: var(--font-text-1);
+    font-weight: var(--font-weight-2);
+    color: var(--gray100);
+}
+.div-password > p {
+    display: flex;
+    font-size: var(--font-text-2);
+    font-weight: var(--font-weight-3);
+    color: var(--alert100);
+}
+.new-account-title {
+    font-size: var(--font-text-2);
+    font-weight: var(--font-weight-2);
+    color: var(--gray100);
+}
+.new-account {
+    text-align: center;
+    font-size: var(--font-text-2);
+    font-weight: var(--font-weight-3);
+    color: var(--gray300);
+}
+
+.div-user > input::placeholder, .div-email > input::placeholder, .div-photo > input::placeholder, .div-password > input::placeholder {
+    font-size: var(--font-text-1);
+    font-weight: var(--font-weight-3);
+    color: var(--gray400);
+}
+
+.div-signup-title > h2 {
+    font-size: var(--font-title-2);
+    font-weight: var(--font-weight-2);
+    color: var(--gray001);
+}
+.slogan-signup {
+    width: 391px;
+    font-size: var(--font-title-1);
+    font-weight: var(--font-weight-1);
+    color: var(--brand100);
+}
+.logout {
+    font-size: var(--font-text-2);
+    font-weight: var(--font-weight-2);
+    color: var(--gray400);
+    cursor: pointer;
+}
+.feed > p {
+    width: 800px;
+    font-size: var(--font-title-2);
+    font-weight: var(--font-weight-2);
+    color: var(--gray100);
+}
+.username-post {
+    font-size: var(--font-text-2);
+    font-weight: var(--font-weight-2);
+    color: var(--gray100);
+}
+.date {
+    font-size: var(--font-text-2);
+    font-weight: var(--font-weight-2);
+    color: var(--gray400);
+}
+
+.post-description > h2 {
+    font-size: var(--font-title-3);
+    font-weight: var(--font-weight-1);
+    color: var(--gray100);
+}
+.post-message {
+    max-width: 800px;
+    height: 48px;
+    font-size: var(--font-text-1);
+    font-weight: var(--font-weight-3);
+    color: var(--gray300);
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.acess-full-message {
+    font-size: var(--font-text-1);
+    font-weight: var(--font-weight-2);
+    color: var(--brand100);
+    cursor: pointer;
+}
+.div-title-modal > p, .modal-delete-title > p {
+    font-size: var(--font-title-2);
+    font-weight: var(--font-weight-2);
+    color: var(--gray100);
+}
+.div-post-input-title > label, .div-post-input-content > label {
+    font-size: var(--font-text-1);
+    font-weight: var(--font-weight-2);
+    color: var(--gray100);
+}
+
+.modal-delete > h3 {
+    font-size: var(--font-title-3);
+    font-weight: var(--font-weight-2);
+    color: var(--gray100);
+}
+
+.modal-delete > p {
+    font-size: var(--font-text-1);
+    font-weight: var(--font-weight-3);
+    color: var(--gray300);
+}
+.post-username {
+    font-size: var(--font-text-2);
+    font-weight: var(--font-weight-2);
+    color: var(--gray100);
+}
+.post-date {
+    font-size: var(--font-text-2);
+    font-weight: var(--font-weight-2);
+    color: var(--gray400);
+}
+.modal-post > h3 {
+    font-size: var(--font-title-3);
+    font-weight: var(--font-weight-1);
+    color: var(--gray100);
+}
+
+.post-text {
+    text-align: justify;
+    font-size: var(--font-text-1);
+    font-weight: var(--font-weight-3);
+    color: var(--gray300);
+}

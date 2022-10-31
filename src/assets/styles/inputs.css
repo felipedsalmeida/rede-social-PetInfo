@@ -1,0 +1,33 @@
+.div-user > input, .div-email > input, .div-photo > input, .div-password > input{
+    width: 321px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    background-color: var(--gray800);
+    padding: 0px 16px;
+    border: 1px solid var(--gray600);
+    border-radius: 4px;
+}
+.div-post-input-title > input {
+    width: 743px;
+    height: 44px;
+    background-color: var(--gray800);
+    border: 1px solid var(--gray5005);
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 17px;
+    gap: 10px;
+    border-radius: 4px;
+}
+
+.div-post-input-content > input {
+    width: 743px;
+    height: 120px;
+    background-color: var(--gray800);
+    border: 1px solid var(--gray5005);
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 17px;
+    gap: 10px;
+    border-radius: 4px;
+}

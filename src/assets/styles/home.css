@@ -1,0 +1,113 @@
+.main-container {
+    height: 100vh;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+}
+header {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;    
+}
+.div-user {
+    display: flex;
+    gap: 12px;
+}
+.div-info-user {
+    width: 118px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.div-info-user:hover > .div-hover-user-info {
+    display: block;
+}
+.div-info-user > figure {
+    width: 41px;
+    height: 41px;
+    display: flex;
+    border-radius: 100%;
+    border: 1px solid var(--brand100);
+    overflow: hidden;
+    cursor: pointer;
+}
+.div-info-user > figure > img {
+    width: 100%;
+}
+.div-hover-user-info{
+    width: 215px;
+    display: none;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+.div-logout {
+    display: flex;
+    gap: 20px;
+}
+.div-logout > figure {
+    width: 14px;
+    height: 21px;
+}
+.div-logout > figure > img {
+    width: 100%;
+}
+.feed {
+    width: 100vw;
+    height: 64px;
+    margin-bottom: 35px;
+    background-color: var(--gray800);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.users-posts {
+    width: 800px;
+}
+
+.users-posts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+.post {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.div-post-title {
+    display: flex;
+    justify-content: space-between;
+}
+.div-info-post {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.photo-profile {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;  
+    overflow: hidden;
+}
+.photo-profile > img {
+    width: 100%;
+}
+.div-date-post {
+    display: flex;
+    gap: 32px;
+}
+.div-buttons-post {
+    display: flex;
+    gap: 12px;
+}
+.post-description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
