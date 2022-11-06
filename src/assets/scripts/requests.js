@@ -20,7 +20,7 @@ export class ApiRequest {
                 const response = await userLogin.json()
                 localStorage.setItem("@PetInfo:token", response.token);
                 
-                window.location.assign("../../src/pages/home.html")
+                window.location.assign("src/pages/home.html")
             } else {
                 const response = await userLogin.json()
 
@@ -54,7 +54,7 @@ export class ApiRequest {
 
                 
                 setTimeout(() => {
-                    window.location.assign("../../index.html")
+                    window.location.assign("index.html")
                 }, 4000)
                 
             } else {
