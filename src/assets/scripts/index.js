@@ -53,7 +53,7 @@ function newAccount() {
 
     signup.addEventListener("click", (event) => {
         event.preventDefault()
-        window.location.assign("../../src/pages/signup.html")
+        window.location.assign("src/pages/signup.html")
     })
 }
 newAccount()
